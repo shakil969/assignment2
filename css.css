@@ -1,0 +1,339 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+ *{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+ } 
+ .header-area{
+    display: flex;
+    margin: 10px 100px;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 0px; */
+
+ }
+ .span1{
+    color:black;
+ }
+ .bd{
+    color: #19CE67;
+ }
+ .menu{
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+    
+    gap: 15px;
+   
+}
+.menu>a{
+    text-decoration: none;
+    
+    color: #19CE67;
+}
+.menuber{
+   visibility:hidden;
+
+  }
+  
+
+
+  /* banner-area */
+.frist-banner{  
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    padding:0px 100px ; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.021),rgba(0, 0, 0, 0.295)), url(./image/banner-bg.jpg);
+   
+    
+}
+.image-doc{
+    height: 350px;
+    padding: 0px 200px;
+}
+.Modern{
+  
+    /* width: 50%; */
+  
+}
+.image-area{
+    width: 50%;
+    
+}
+.Modern p {
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 20px; 
+} 
+
+.btn1{
+    color: white;
+    background-color: #19CE67;
+    padding: 5px 30px;
+    border:1px solid white ;
+    border-radius:4px ;
+}
+.btn2{
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border:none ;
+    border-radius:4px ;   
+}
+.Modern h1{
+    color:#19CE67;
+}
+ /* banner-area2  */
+
+.latest {  
+   text-align: center;
+   margin-top:30px ;  
+    
+}
+.latest1{
+    margin: 0px 100px;
+}
+ .latest p{
+   margin-top: 2px;
+   font-size: 18px;
+}
+
+.latest h1{
+    color:#19CE67;
+} 
+.product01{
+    width: 100%;
+ 
+}
+.Microscope{
+   background-color:silver;
+   text-align: center;  
+   border-radius: 5px;
+   margin-top:  10px  ;
+   
+}
+h1{
+    color: #19CE67;
+}
+.banner3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 100px ;
+    gap: 10px;
+   
+}
+.icon{
+    color:orange ;
+}
+.view{
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #19CE67;
+    border-radius: 0px 0px 6px 6px;
+   
+   
+}
+.Browse{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.more{
+    background-color: #19CE67; 
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+/* banner-area3 */
+.team{
+    text-align: center;
+    margin-top: 30px;
+}
+.team h1{
+    margin-top: 30px;
+}
+
+.number{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin-top: 20px;   
+}
+.section-team{
+    margin: 0px 100px;
+   
+}
+.director{
+    width: 100%;
+}
+.dr{
+    border: 2px solid lightgray;
+    border-radius: 6px;
+}
+.dr h1{
+    text-align: center;
+}
+.dr p{
+    text-align: center;
+}
+.team p{
+    font-size: 18px;
+   
+}
+ /* banner4 */
+
+ .blogs{
+    text-align: center;
+    margin-top: 50px;   
+   
+ }
+ .blogs p{
+   margin: 0px 100px;
+
+ }
+ .pharmacy{
+    display: flex;
+    margin: 0px 100px;
+    gap: 10px;
+    margin-top: 20px;
+ }
+.news1{
+    width: 100%;
+}
+.newsman{
+   border: 2px solid lightgray;
+   border-radius: 6px;
+   padding: 5px;
+}
+.newsman h4{
+      padding: 0px 20px;
+}
+.newsman p{
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.newsman h1{
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.Read{
+    text-decoration: underline;
+    color: #19CE67;
+    
+}
+.span{
+    color: #19CE67;
+    padding-right: 10px;
+}
+
+
+/* footer -area */
+.footer-area{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top:30px; 
+}
+hr{
+   border: 1px solid aqua;
+}
+.Copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+.lestmenu{
+    display: flex;
+    width: 50%;
+    gap: 100px;
+    margin: 0px 100px;
+}
+
+p{
+    margin-top:15px ;
+}
+.our1{
+    margin-top: 15px;
+    margin-bottom:15px ;
+}
+.our2{
+    margin-top: 15px;
+    margin-bottom:15px ;
+}
+
+
+
+/* responsive web desing */
+
+@media only screen and (max-width:600px){
+   
+
+.menu{
+    display:none;  
+}
+.Modern{
+    display: block;
+  
+
+} 
+
+
+.header-area {
+    margin: 0px 100px;
+}
+ .image-doc{
+    width: 100%;
+    display:none;
+   
+} 
+.image-area{
+    display: block;
+} 
+.frist-banner{
+    display: block;
+   
+   
+}
+.banner3{
+    display: block;
+}
+
+.number{
+    display: block;
+  
+}
+.pharmacy{
+    display: block;
+   
+}
+.footer-area{
+    margin: 0px 100px;
+    display: block;
+   
+}
+
+.Copyright1{
+    margin: 0px 100px;
+    display: block;
+}
+.menuber{
+  visibility: visible;
+  margin: 0px -80px;
+  
+}
+
+
+
+}
